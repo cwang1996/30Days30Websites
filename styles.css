@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(#7f7fd5, #86a8e7, #91eae4);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+/* Styling for the Top Navigation bar */ 
+
+.top-nav-bar{
+    display: flex;
+    float: right;
+}
+
+.top-nav-ul {
+    list-style: none;
+}
+
+.top-nav-ul li {
+    display: inline;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.top-nav-ul a {
+    text-decoration: none;
+    color: #404040;
+}
+
+/* General styling, font, size, etc. */
+
+h1 {
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: #404040;
+}
+
+li {
+    padding: 5px;
+    color: #404040;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #404040;
+}
+
+
+a, li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    margin-left: 20px;
+}
+
+/*Title and list of projects */
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.list {
+    display: flex;
+}
+
+.list ul {
+    list-style: none;
+    margin: 50px auto;
+}
+
+.list li {
+    padding-top: 5px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #FFE5B4;
+}

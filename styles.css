@@ -38,6 +38,7 @@ h1 {
     font-size: 50px;
     font-style: italic;
     color: #404040;
+    user-select: none;
 }
 
 li {

@@ -3,13 +3,12 @@
 }
 
 html {
-    height: 100vh;
     overflow: hidden;
 }
 
 body {
     overflow: auto;
-    height: 100vh;
+    height: 100%;
     background-image: linear-gradient(#7f7fd5, #86a8e7, #91eae4);
     background-repeat: no-repeat;
     margin: 0;

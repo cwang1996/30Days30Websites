@@ -1,4 +1,7 @@
-* {
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     user-select: none;
 }
 
@@ -6,7 +9,6 @@ body {
     height: 100%;
     background-image: linear-gradient(#7f7fd5, #86a8e7, #91eae4);
     background-repeat: no-repeat;
-    margin: 0;
 }
 
 /* Styling for the Top Navigation bar */ 

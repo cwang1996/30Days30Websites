@@ -6,14 +6,11 @@
 }
 
 body {
-    height: 100%;
+    height: 105vh;
     background-image: linear-gradient(#7f7fd5, #86a8e7, #91eae4);
     background-repeat: no-repeat;
 }
 
-html {
-    height: 100%;
-}
 /* Styling for the Top Navigation bar */ 
 
 .top-nav-bar{
@@ -105,4 +102,10 @@ a {
 
 .links {
     margin-left: -20px;
+}
+
+@media screen and (max-width: 500px) {
+    .top-nav-ul {
+        margin-right: 58px;
+    }
 }

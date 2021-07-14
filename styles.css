@@ -1,4 +1,7 @@
 *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     user-select: none;
 }
 
@@ -8,9 +11,14 @@ body {
     background-repeat: no-repeat;
 }
 
+html {
+    height: 100%;
+}
 /* Styling for the Top Navigation bar */ 
 
 .top-nav-bar{
+    margin-right: 15px;
+    margin-top: 20px;
     display: flex;
     float: right;
 }

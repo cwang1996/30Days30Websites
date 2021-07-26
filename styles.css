@@ -105,7 +105,36 @@ a {
 }
 
 @media screen and (max-width: 500px) {
+    .top-nav-bar {
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+
     .top-nav-ul {
-        margin-right: 58px;
+        margin: 0 auto;
+    }
+
+    .days ul li {
+        margin-left: 50px;
+    }
+
+    .title h1 {
+        margin-bottom: -30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .top-nav-ul a {
+        font-size: 18px;
+    }
+
+    .days li, .links li {
+        font-size: 12.5px;
+        margin-bottom: 5px;
+    }
+
+    .links a {
+        font-size: 12.5px;
     }
 }
